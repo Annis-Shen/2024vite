@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <div class="middle">
+      <div class="wrap d-flex">
+          <div class="container">
+              <h1>門市據點</h1>
+              <div class="toggle d-flex">
+                  <p>選擇分店</p>
+                  <div class="detail d-flex"> 
+                      <p>台北中山旗艦店</p>
+                      <span class="material-symbols-outlined">
+                          arrow_drop_down
+                          </span>
+                  </div>
+              </div>
+              <div class="midmap d-flex">
+                  <div class="column">
+                      <div class="card ">
+                          <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/storepage-1.png?raw=true" alt="Shop">
+                          <h3>台北中山旗艦店</h3>
+                          <ul>
+                            <li><span class="material-symbols-outlined">call</span>電話：</li>
+                            <li><span class="material-symbols-outlined">
+                              schedule
+                              </span>營業時間：10:00-21:00</li>
+                            <li><span class="material-symbols-outlined">
+                              location_on
+                              </span>地址：台北市中山區南京東路25巷2-1號</li>
+                          </ul>
+                      </div>
+                  </div>
+                  <img class="map" src="img/map.png" alt="map">
+              </div>
+
+          </div>
+      </div>
+</div>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
