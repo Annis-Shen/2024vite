@@ -2,6 +2,19 @@
     box-sizing: border-box;
   }
 
+  body{
+    font-family: 'Noto Sans TC','微軟正黑體', sans-serif ;
+    font-size: $bodyfontsize;
+    line-height: $lineheight;
+    color: $fontcolor;
+    background-color: $mainbackground;
+}
+
+a {
+    text-decoration: none;
+    color:$fontcolor;
+  }
+
   .d-flex{
     display: flex;
 }
@@ -14,4 +27,10 @@ img{
 .wrap{
   width: 80%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 767px){
+  body{
+      font-size: $fontsize-s;
+  };
 }

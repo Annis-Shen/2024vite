@@ -1,0 +1,77 @@
+.subheader{
+    background-color: $subbackground;
+    line-height: $lineheight;
+}
+
+.subnav{
+    font-size: $fontsize-2;
+    justify-content: space-between;
+}
+
+.subnav a{
+    display: block;
+    padding: 13px 0px; 
+    margin-left: 48px;
+}
+
+.subnav a:hover{
+    font-size: $fontsize-5;
+}
+
+h2{
+    font-size: $fontsize-4;
+    border-left: $title-border;
+    font-weight: bold;
+    padding-left: 16px;
+    margin-bottom: 33px;
+}
+
+.img{
+    width: 50%;
+}
+
+.cardcontainer{
+    margin-left: 24px;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.top{
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 19px;
+}
+
+h4{
+    font-size: $fontsize-5;
+    color: $subbackground;
+}
+
+.title p{
+  font-family: $en-fontfamily;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.date{
+    font-size: $fontsize-s;
+}
+
+.text{
+    font-size: $fontsize-s;
+    color: $fontcolor-g;
+}
+
+.more{
+    font-family: $en-fontfamily;
+    font-weight: 900;
+    font-style: normal;
+    color: $subbackground;
+    text-align: right;   
+}
+
+.card{
+    margin-bottom: 60px;
+}
+
