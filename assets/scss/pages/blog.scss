@@ -6,6 +6,7 @@
 .subnav{
     font-size: $fontsize-2;
     justify-content: space-between;
+    align-items: center;
 }
 
 .subnav a{
@@ -16,6 +17,55 @@
 
 .subnav a:hover{
     font-size: $fontsize-5;
+    
+}
+
+@media screen and (max-width: 767px){
+    .subnav{
+        font-size: $fontsize-s;
+    }
+
+    .material-symbols-outlined{
+        display: none;
+    }
+
+    h2{
+        display: none;
+    }
+
+    .middle{
+        padding-top: 16px;
+    }
+    
+}
+
+.onlymedia{
+    font-size: $fontsize-s;
+}
+
+.onlymedia li{
+    padding-left: 5px;
+}
+
+.red{
+    color: $mainbackground;
+}
+
+.mediatag{
+    color: $mainbackground;
+    font-weight: bold;
+    padding: 8px 0px;
+}
+
+.mediatag li{
+    padding-right: 16px;
+}
+
+@media screen and (min-width:767px){
+    .onlymedia{
+        display: none;
+    }
+    
 }
 
 h2{
