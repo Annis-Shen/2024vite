@@ -21,12 +21,13 @@
 
 @media screen and (max-width: 767px){
     .subnav{
-        font-size: $fontsize-s;
-    }
-
-    .material-symbols-outlined{
         display: none;
     }
+
+    .middle{
+        padding-top: 40px;
+    }
+
 }
 
 
@@ -128,4 +129,22 @@ h4 a{
     .text-m{
         display: none;
     }
+}
+
+
+.arrow{
+    justify-content: center;
+}
+
+.arrow a{
+    display: block;
+    padding: 12px 16px;
+    border: $arrow-border;
+    color: $fontcolor-g;
+    font-size: $fontsize-1;
+}
+
+.arrow a:hover{
+    background-color: $background-bl;
+    color: $middlebackground;
 }
