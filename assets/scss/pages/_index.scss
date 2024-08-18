@@ -36,22 +36,11 @@
  .midmap{
      width: 100%;
      justify-content: space-between;
-     
- 
  }
- .midmap img{
-     width: 55%;
-     margin: 0 auto;
- }
+
  
  .midmap .column{
      width: 42%;
-     
-     
- }
- 
- .midmap .column img{
-     width: 100%;
  }
  
  .card h3{
@@ -87,4 +76,41 @@
          margin-top: 24px;
      }
  
+ }
+/* 平板樣式 */
+ @media (min-width: 768px) and (max-width: 1024px) {
+    .midmap{
+        display: block;
+    }
+    .midmap .column{
+        width: 100%;
+    }
+
+    .cardimg{
+        width: 50%;
+        object-fit: cover;
+    }
+
+    .map{
+        width: 100%;
+    }
+
+    .card{
+        display: flex;
+        margin-bottom: $padding-2;
+    }
+
+    .text{
+        padding-left: $padding-2;
+    }
+ }
+
+ /* 桌面樣式 */
+ @media (min-width: 1024px) {
+    .map {
+        width: 55%;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+
  }

@@ -2,18 +2,20 @@
   margin-top:60px;
 }
 
-.footer .d-flex{
+.foottop{
   justify-content: space-between;
+  border-bottom: 1px solid #ffffff;
 }
 
 .footer_nav{
   font-size:$fontsize-s;
-  margin-left: -24px;
+  white-space: nowrap;
+
 }
 
 
 .left li{
-  padding: 0px 24px;
+  padding-right: $padding-2;
 }
 
 .right{
@@ -31,7 +33,7 @@
 
 .footer .conact{
   font-size: $fontsize-3;
-  border-bottom: 1px solid #ffffff;
+  
   padding: 32px 0px;
 }
 
@@ -50,7 +52,9 @@
 .copyright ul{
   width: 20%;
   justify-content: space-between;
+  white-space: nowrap;
 }
+
 
 
 @media screen and (max-width: 767px){
@@ -68,7 +72,6 @@
 
   .footer .conact{
       font-size: $fontsize-s;
-      margin-left: 24px;
       margin-top: -32px;
   }
 
@@ -86,5 +89,16 @@
 
   .copyright ul li{
     padding-top: 8px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .left48{
+    padding-left: 48px;
+  }
+  .copyright ul{
+    width: auto;
+    justify-content: space-between;
+    white-space: nowrap;
   }
 }
