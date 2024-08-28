@@ -178,7 +178,7 @@
 
           </div>
 
-          <div class="fotter d-flex justify-content-between mt-4 mb-5">
+          <div class="fotter d-flex justify-content-between mt-4 mb-5 ">
             <div class="d-flex">
              <a href="#"><span class="material-symbols-outlined text-dark">
               chevron_left
@@ -188,9 +188,25 @@
               </span></a>
             </div>
 
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end position-relative">
               <button class="btn btn-outline-success me-md-2 btn-lg " type="button">Mark as read</button>
-              <button class="btn btn-success btn-lg active" type="button">Reply</button>
+              <button class="btn btn-success btn-lg" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              Reply
+              </button>
+           
+            <div class="collapse position-absolute bottom-0 end-0" id="collapseExample">
+              <div class="card card-body align-items-end">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <button class="btn btn-outline-success me-md-2 btn-lg " type="button">Cancel</button>
+                  <button class="btn btn-success btn-lg" type="button" data-bs-toggle="collapse" 
+                  data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  Reply
+                  </button>
+              </div>
+            </div>
             </div>
 
           </div>
